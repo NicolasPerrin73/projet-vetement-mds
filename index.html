@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="script/script.js" defer></script>
+    <title>Vetements Mer de sable</title>
+  </head>
+  <body>
+    <h1>Vos tailles de vetements</h1>
+
+    <form action="get" id="form">
+
+        <label for="last-name">Nom</label>
+        <input type="text" placeholder="Votre nom" id="lastName">
+
+        <label for="first-name">Prénom</label>
+        <input type="text" placeholder="Votre prénom" id="firstName">
+
+      <label for="t-shirt-size">Choisir une taille de t-shirt :</label>
+      <select name="t-shirt-size" id="tshirtSize">
+        <option value="">--</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+        <option value="XXXL">XXXL</option>
+      </select>
+
+      <label for="pants-size">Choisir une taille de pantalon :</label>
+      <select name="pants-size" id="pantsSize">
+        <option value="">--</option>
+        <option value="38">38</option>
+        <option value="40">40</option>
+        <option value="42">42</option>
+        <option value="44">44</option>
+        <option value="46">46</option>
+        <option value="48">48</option>
+        <option value="50">50</option>
+        <option value="52">52</option>
+        <option value="54">54</option>
+      </select>
+
+      <label for="parka-size">Choisir une taille de parka :</label>
+      <select name="parka-size" id="parkaSize">
+        <option value="">--</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+        <option value="XXXL">XXXL</option>
+      </select>
+
+      <label for="fleece-size">Choisir une taille de polaire :</label>
+      <select name="fleece-size" id="fleeceSize">
+        <option value="">--</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+        <option value="XXXL">XXXL</option>
+      </select>
+
+      <label for="shoes-size">Choisir une taille de chaussure :</label>
+        <input type="number" name="shoes-size" min="38" max="56" id="shoesSize"/>
+      </select>
+
+      <button id="submit">Valider</button>
+    </form>
+  </body>
+</html>

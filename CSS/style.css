@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border: solid 2px black;
+  padding-bottom: 20px;
+}
+
+label {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+select {
+  width: 50px;
+  margin-left: 5px;
+}
+
+input {
+  width: 50%;
+  margin: 5px;
+}
+
+#shoes-size {
+  width: 10%;
+}
+
+button {
+  width: 75px;
+  margin: auto;
+}
