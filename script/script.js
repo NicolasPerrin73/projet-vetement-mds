@@ -77,3 +77,15 @@ function getPersonSize() {
 }
 
 getPersonSize();
+
+let resultat = document.querySelector("#resultat");
+
+function displayStaffSize() {
+  for (i = 0; i < staffClothesSizes.length; i++) {
+    const userSize = document.createElement("p");
+    userSize.textContent = `nom: ${staffClothesSizes[i].nom}, taille t-shirt:${staffClothesSizes[i].tshirt}, taille pantalon: ${staffClothesSizes[i].pantalon}, taille parka: ${staffClothesSizes[i].parka}, taille polaire: ${staffClothesSizes[i].polaire}, taille chaussure: ${staffClothesSizes[i].chaussure}`;
+    resultat.appendChild(userSize);
+  }
+}
+
+displayStaffSize();
